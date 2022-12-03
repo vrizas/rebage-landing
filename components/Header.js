@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import logo from '../public/logo.svg'
+import { gsap } from 'gsap'
 
 export default function Header() {
     const showHamburgerMenuHandler = (event) => {
