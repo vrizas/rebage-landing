@@ -11,16 +11,19 @@ export default function Header() {
     }
 
     const hideHamburgerMenuHandler = (event) => {
-        const nav = document.querySelector('#navigation')
-        gsap.from(nav, { opacity: 1 })
-        gsap.to(nav, { opacity: 0, duration: 0.3 })
-        setTimeout(() => {
-            nav.style.display = 'none'
-        }, 300)
+        const isMobile = window.screen.width < 768
+        if (isMobile) {
+            const nav = document.querySelector('#navigation')
+            gsap.from(nav, { opacity: 1 })
+            gsap.to(nav, { opacity: 0, duration: 0.3 })
+            setTimeout(() => {
+                nav.style.display = 'none'
+            }, 300)
+        }
     }
 
     return (
-        <header className="bg-[#DBFFE0] flex items-center justify-between px-4 py-3 lg:px-14 lg:py-4">
+        <header className="sticky top-0 z-50 bg-[#DBFFE0] flex items-center justify-between px-4 py-3 lg:px-14 lg:py-4">
             <section className="flex items-center gap-10">
                 <h1>
                     <Image src={logo} alt="" className="w-[80px] lg:w-[100px]" />
@@ -33,12 +36,12 @@ export default function Header() {
                             </svg>
                         </button>
                     </div>
-                    <a href="#features" className="py-2 px-4 lg:p-0">Fitur Rebage</a>
-                    <a href="#" className="py-2 px-4 lg:p-0">Kampanye</a>
-                    <a href="#about-us" className="py-2 px-4 lg:p-0">Tentang Kami</a>
-                    <a href="#" className="py-2 px-4 lg:p-0">TrashNews</a>
+                    <a href="#features" className="py-2 px-4 lg:p-0" onClick={hideHamburgerMenuHandler}>Fitur Rebage</a>
+                    <a href="#" className="py-2 px-4 lg:p-0" onClick={hideHamburgerMenuHandler}>Kampanye</a>
+                    <a href="#about-us" className="py-2 px-4 lg:p-0" onClick={hideHamburgerMenuHandler}>Tentang Kami</a>
+                    <a href="#" className="py-2 px-4 lg:p-0" onClick={hideHamburgerMenuHandler}>TrashNews</a>
                     <div className="flex justify-center mt-5">
-                        <a href="#" className="flex items-center gap-2 bg-success text-white font-medium py-2 px-4 rounded-md w-fit lg:hidden">
+                        <a href="#" className="flex items-center gap-2 bg-success text-white font-medium py-2 px-4 rounded-md w-fit lg:hidden" onClick={hideHamburgerMenuHandler}>
                             <svg width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                             <path fill="currentColor" d="M534.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L434.7 224 224 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128zM192 96c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0c-53 0-96 43-96 96l0 256c0 53 43 96 96 96l64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0c-17.7 0-32-14.3-32-32l0-256c0-17.7 14.3-32 32-32l64 0z"/>
                             </svg>
