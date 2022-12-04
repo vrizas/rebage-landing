@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import rebageAppHome from '../public/images/rebage-app-home.png'
 import recycle from '../public/images/recycle.jpg'
-import metaTags from '..public/images/meta-tags.png'
+import metaTags from '../public/images/meta-tags.png'
 import { useEffect } from 'react'
 
 export default function Home() {
