@@ -12,6 +12,7 @@ const inter = Inter({
 export default function MyApp({ Component, pageProps }) {
   return (
     <div className={`${inter.variable} font-sans`}>
+      <div id="loading-bar"></div>
       <Header />
       <Component {...pageProps} />
       <Download />

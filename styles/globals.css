@@ -5,3 +5,53 @@
 html {
     scroll-behavior: smooth;
 }
+
+#loading-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    z-index: 999;
+    animation: loading-bar 1s linear infinite alternate, loading-bar-30 .3s ease-in-out forwards, loading-bar-60 .2s ease-in-out .5s forwards, loading-bar-75 .1s ease-in-out .75s forwards;
+    transition: .5s;
+}
+
+#loading-bar.w-full {
+    animation: loading-bar 1s linear infinite alternate, loading-bar-100 .5s ease-in-out forwards;
+}
+
+@keyframes loading-bar {
+    0% {
+        background-color: #72B184;
+    }
+
+    100% {
+        background-color: #1CBC00;
+    }
+}
+
+@keyframes loading-bar-30 {
+    to {
+        width: 30%;
+    }
+}
+
+@keyframes loading-bar-60 {
+    to {
+        width: 60%;
+    }
+}
+
+@keyframes loading-bar-75 {
+    to {
+        width: 75%;
+    }
+}
+
+@keyframes loading-bar-100 {
+    to {
+        width: 100%;
+    }
+}
+

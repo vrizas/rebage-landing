@@ -2,8 +2,17 @@ import Head from 'next/head'
 import Image from 'next/image'
 import rebageAppHome from '../public/images/rebage-app-home.png'
 import recycle from '../public/images/recycle.jpg'
+import { useEffect } from 'react'
 
 export default function Home() {
+  useEffect(() => {
+    const loadingBar = document.querySelector('#loading-bar')
+    loadingBar.classList.add('w-full')
+    setTimeout(() => {
+      loadingBar.classList.add('opacity-0')
+    }, 500)
+  }, [])
+
   return (
     <div>
       <Head>
