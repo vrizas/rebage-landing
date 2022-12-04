@@ -20,10 +20,10 @@ export default function Header() {
     }
 
     return (
-        <header className="bg-[#DBFFE0] flex items-center justify-between px-4 py-3 lg:px-14 lg:py-6">
-            <section className="flex items-center gap-8">
+        <header className="bg-[#DBFFE0] flex items-center justify-between px-4 py-3 lg:px-14 lg:py-4">
+            <section className="flex items-center gap-10">
                 <h1>
-                    <Image src={logo} alt="" className="w-[80px] lg:w-[120px]" />
+                    <Image src={logo} alt="" className="w-[80px] lg:w-[100px]" />
                 </h1>
                 <nav className="absolute left-0 top-0 bg-primary text-white text-center hidden flex-col font-medium h-screen w-full lg:static lg:text-black lg:h-fit lg:w-fit lg:text-left lg:flex lg:flex-row lg:items-center lg:gap-6 lg:bg-transparent" id="navigation"> 
                     <div className="text-right px-4 py-3 lg:hidden">
@@ -33,10 +33,10 @@ export default function Header() {
                             </svg>
                         </button>
                     </div>
-                    <a href="#" className="py-2 px-4 lg:p-0 lg:text-lg">Fitur Rebage</a>
-                    <a href="#" className="py-2 px-4 lg:p-0 lg:text-lg">Kampanye</a>
-                    <a href="#" className="py-2 px-4 lg:p-0 lg:text-lg">Tentang Kami</a>
-                    <a href="#" className="py-2 px-4 lg:p-0 lg:text-lg">TrashNews</a>
+                    <a href="#" className="py-2 px-4 lg:p-0">Fitur Rebage</a>
+                    <a href="#" className="py-2 px-4 lg:p-0">Kampanye</a>
+                    <a href="#" className="py-2 px-4 lg:p-0">Tentang Kami</a>
+                    <a href="#" className="py-2 px-4 lg:p-0">TrashNews</a>
                     <div className="flex justify-center mt-5">
                         <a href="#" className="flex items-center gap-2 bg-success text-white font-medium py-2 px-4 rounded-md w-fit lg:hidden">
                             <svg width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
