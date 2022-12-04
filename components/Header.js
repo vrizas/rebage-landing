@@ -33,7 +33,7 @@ export default function Header() {
                             </svg>
                         </button>
                     </div>
-                    <a href="#" className="py-2 px-4 lg:p-0">Fitur Rebage</a>
+                    <a href="#features" className="py-2 px-4 lg:p-0">Fitur Rebage</a>
                     <a href="#" className="py-2 px-4 lg:p-0">Kampanye</a>
                     <a href="#about-us" className="py-2 px-4 lg:p-0">Tentang Kami</a>
                     <a href="#" className="py-2 px-4 lg:p-0">TrashNews</a>
