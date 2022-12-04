@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import rebageHomeApp from '../public/images/rebage-app-home.png'
+import recycle from '../public/images/recycle.jpg'
 
 export default function Home() {
   return (
@@ -35,6 +36,18 @@ export default function Home() {
           </div>
           <div>
             <Image src={rebageHomeApp} alt="Rebage App" />
+          </div>
+        </section>
+        <section className="relative iove flex gap-8 flex-col text-center lg:gap-12 lg:text-left lg:flex-row items-center px-4 pt-10 pb-14 lg:pt-16 lg:pb-20 lg:px-14 bg-gradient-to-r from-[#0E9F56] to-primary after:content-['#TentangRebage'] after:absolute after:bottom-0 after:left-3 after:text-[#FFFFFF33] after:font-bold after:text-3xl after:lg:text-6xl" id="about-us">
+          <div className="lg:w-1/3">
+            <Image src={recycle} alt="Recycle" className="rounded-md w-full" />
+          </div>
+          <div className="lg:w-2/3 text-white">
+            <h3 className="font-bold text-3xl">Tentang Kami</h3>
+            <div className="mt-5">
+              <p className="mb-4">Rebage adalah platform aplikasi bank sampah anorganik digital yang bertujuan untuk meningkatkan kesadaran masyarakat akan penting nya pengkategorian sampah melalui pemanfaatan kategori 3R (Reduce, Reuse, dan Recycle).</p>
+              <p>Rebage hadir dengan impian besar, Rebage mengajak kalian untuk mengambil langkah pertama dalam mendaur ulang, dimulai dengan memilah sampah di lingkungan kalian. Rebage berharap mendapat banyak dukungan dari berbagai pihak, agar mimpi besar ini dapat segera terwujud.</p>
+            </div>
           </div>
         </section>
       </main>

@@ -35,7 +35,7 @@ export default function Header() {
                     </div>
                     <a href="#" className="py-2 px-4 lg:p-0">Fitur Rebage</a>
                     <a href="#" className="py-2 px-4 lg:p-0">Kampanye</a>
-                    <a href="#" className="py-2 px-4 lg:p-0">Tentang Kami</a>
+                    <a href="#about-us" className="py-2 px-4 lg:p-0">Tentang Kami</a>
                     <a href="#" className="py-2 px-4 lg:p-0">TrashNews</a>
                     <div className="flex justify-center mt-5">
                         <a href="#" className="flex items-center gap-2 bg-success text-white font-medium py-2 px-4 rounded-md w-fit lg:hidden">
