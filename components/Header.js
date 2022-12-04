@@ -27,7 +27,7 @@ export default function Header() {
         <header className="sticky top-0 z-50 bg-[#DBFFE0] flex items-center justify-between px-4 py-3 lg:px-14 lg:py-4">
             <section className="flex items-center gap-10">
                 <Link href="/">
-                    <Image src={logo} alt="" className="w-[80px] lg:w-[100px]" priority />
+                    <Image src={logo} alt="Rebage Logo" className="w-[80px] lg:w-[100px]" priority />
                 </Link>
                 <nav className="absolute left-0 top-0 bg-primary text-white text-center hidden flex-col font-medium h-screen w-full lg:static lg:text-black lg:h-fit lg:w-fit lg:text-left lg:flex lg:flex-row lg:items-center lg:gap-6 lg:bg-transparent" id="navigation"> 
                     <div className="text-right px-4 py-3 lg:hidden">
