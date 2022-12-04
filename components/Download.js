@@ -7,8 +7,8 @@ export default function Download() {
     return (
         <section className="flex gap-8 flex-col text-center lg:text-left lg:flex-row items-center lg:justify-between px-4 pt-10 lg:px-14">
           <article className="lg:pb-10 lg:w-1/2">
-            <h3 className="text-3xl font-bold lg:text-5xl">Segera hadir di App Store dan Play Store.</h3>
-            <p className="mt-5 text-gray font-medium">Yuk, pilah sampah disekitar mu! #BersamaRebage</p>
+            <h2 className="text-3xl font-bold lg:text-5xl lg:leading-[3.6rem]">Segera hadir di App Store dan Play Store.</h2>
+            <p className="mt-5 text-light-gray font-medium">Yuk, pilah sampah disekitar mu! #BersamaRebage</p>
             <div className="mt-8 flex gap-5">
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <Image src={googlePlayBadge} width="170" alt="Get it on Google Play" />
@@ -18,7 +18,7 @@ export default function Download() {
               </a>
             </div>
           </article>
-          <div className="relative lg:bottom-[-5.8vh]">
+          <div>
             <Image src={rebageAppDetector} alt="Rebage App (Detector)" />
           </div>
         </section>

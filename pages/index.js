@@ -15,15 +15,15 @@ export default function Home() {
       <main>
         <section className="flex gap-8 flex-col text-center lg:text-left lg:flex-row items-center lg:justify-between px-4 py-10 lg:px-14">
           <article className="lg:w-1/2">
-            <h2 className="text-3xl text-success font-bold lg:text-5xl lg:leading-[3.6rem]">
+            <h1 className="text-3xl text-success font-bold lg:text-5xl lg:leading-[3.6rem]">
               <span className="text-black relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:bg-gradient-to-r after:from-[#00BC1F] after:to-[#3cff1aab] after:w-[102%] after:h-[18px] after:rounded-lg after:z-[-1]">
                 Teman Terbaik
               </span><br /> 
               untuk Memilah Sampah<br />
               Demi Lingkungan Sehat<br />
               dan Nyaman.
-            </h2>
-            <div className="mt-5 text-gray font-medium leading-snug">
+            </h1>
+            <div className="mt-5 text-light-gray font-medium leading-snug">
               <p className="mb-1">Kurangi Penumpukan Sampah dengan Memilah Sampah Di sekitarmu bersama Rebage!</p>
               <p>Temukan kampanye bebas sampah terbaik dan dapatkan hadiah menarik disini.</p>
             </div>
@@ -43,7 +43,7 @@ export default function Home() {
             <Image src={recycle} alt="Recycle" className="rounded-md w-full" />
           </div>
           <article className="lg:w-2/3 text-white">
-            <h3 className="font-bold text-3xl">Tentang Kami</h3>
+            <h2 className="font-bold text-3xl">Tentang Kami</h2>
             <div className="mt-5">
               <p className="mb-4">Rebage adalah platform aplikasi bank sampah anorganik digital yang bertujuan untuk meningkatkan kesadaran masyarakat akan penting nya pengkategorian sampah melalui pemanfaatan kategori 3R (Reduce, Reuse, dan Recycle).</p>
               <p>Rebage hadir dengan impian besar, Rebage mengajak kalian untuk mengambil langkah pertama dalam mendaur ulang, dimulai dengan memilah sampah di lingkungan kalian. Rebage berharap mendapat banyak dukungan dari berbagai pihak, agar mimpi besar ini dapat segera terwujud.</p>
@@ -51,7 +51,7 @@ export default function Home() {
           </article>
         </section>
         <section className="flex flex-col items-center px-4 py-10 lg:px-14" id="features">
-          <h3 className="text-3xl lg:text-4xl font-bold relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:translate-x-[-50%] after:bg-gradient-to-r after:from-[#00BC1F] after:to-[#3cff1aab] after:w-[102%] after:h-[12px] after:rounded-lg after:z-[-1]">Kenapa Rebage?</h3>
+          <h2 className="text-3xl lg:text-4xl font-bold relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:translate-x-[-50%] after:bg-gradient-to-r after:from-[#00BC1F] after:to-[#3cff1aab] after:w-[102%] after:h-[12px] after:rounded-lg after:z-[-1]">Kenapa Rebage?</h2>
           <div className="grid gap-5 mt-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             <div className="shadow-rebage py-6 px-5 rounded-lg">
               <div className="flex justify-center">
@@ -62,7 +62,7 @@ export default function Home() {
                 </div>  
               </div>
               <div className="mt-6">
-                <h4 className="font-bold mb-2">Deteksi Sampah</h4>
+                <h3 className="font-bold mb-2">Deteksi Sampah</h3>
                 <p>Temukan sampah disekitar tempat tinggalmu melalui kamera berbasis AI</p>
               </div>
             </div>
@@ -75,7 +75,7 @@ export default function Home() {
                 </div>  
               </div>
               <div className="mt-6">
-                <h4 className="font-bold mb-2">Estimasi Harga</h4>
+                <h3 className="font-bold mb-2">Estimasi Harga</h3>
                 <p>Dapatkan estimasi harga sampah terbaik dan dapatkan reward setiap harinya</p>
               </div>
             </div>
@@ -88,7 +88,7 @@ export default function Home() {
                 </div>  
               </div>
               <div className="mt-6">
-                <h4 className="font-bold mb-2">Solusi Sampah Dengan 3R</h4>
+                <h3 className="font-bold mb-2">Solusi Sampah Dengan 3R</h3>
                 <p>Dapatkan rekomendasi pengolahan sampah dengan 3R (Reduce, Reuse, Recycle)</p>
               </div>
             </div>
@@ -101,7 +101,7 @@ export default function Home() {
                 </div>  
               </div>
               <div className="mt-6">
-                <h4 className="font-bold mb-2">Lokasi Pengepul</h4>
+                <h3 className="font-bold mb-2">Lokasi Pengepul</h3>
                 <p>Dapatkan rekomendasi pengepul terdekat berdasarkan lokasi tempat tinggalmu</p>
               </div>
             </div>

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../public/logo.svg'
 import { gsap } from 'gsap'
@@ -25,9 +26,9 @@ export default function Header() {
     return (
         <header className="sticky top-0 z-50 bg-[#DBFFE0] flex items-center justify-between px-4 py-3 lg:px-14 lg:py-4">
             <section className="flex items-center gap-10">
-                <h1>
+                <Link href="/">
                     <Image src={logo} alt="" className="w-[80px] lg:w-[100px]" />
-                </h1>
+                </Link>
                 <nav className="absolute left-0 top-0 bg-primary text-white text-center hidden flex-col font-medium h-screen w-full lg:static lg:text-black lg:h-fit lg:w-fit lg:text-left lg:flex lg:flex-row lg:items-center lg:gap-6 lg:bg-transparent" id="navigation"> 
                     <div className="text-right px-4 py-3 lg:hidden">
                         <button onClick={hideHamburgerMenuHandler}>

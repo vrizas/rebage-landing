@@ -11,7 +11,8 @@ module.exports = {
       colors: {
         'primary': '#72B184',
         'success': '#1CBC00',
-        'gray': '#565555',
+        'light-gray': '#565555',
+        'dark-gray': '#373535',
       },
       fontFamily: {
         sans: ['var(--font-inter)', ...defaultTheme.fontFamily.sans],
