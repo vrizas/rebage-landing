@@ -44,12 +44,12 @@ export default function Home() {
             </a>
           </article>
           <div>
-            <Image src={rebageAppHome} alt="Rebage App" />
+            <Image src={rebageAppHome} alt="Rebage App" priority />
           </div>
         </section>
         <section className="relative iove flex gap-8 flex-col text-center lg:gap-12 lg:text-left lg:flex-row items-center px-4 pt-10 pb-14 lg:pt-16 lg:pb-20 lg:px-14 bg-gradient-to-r from-[#0E9F56] to-primary after:content-['#TentangRebage'] after:absolute after:bottom-0 after:left-3 after:text-[#FFFFFF33] after:font-bold after:text-3xl after:lg:text-6xl" id="about-us">
           <div className="lg:w-1/3">
-            <Image src={recycle} alt="Recycle" className="rounded-md w-full" />
+            <Image src={recycle} alt="Recycle" className="rounded-md w-full" priority />
           </div>
           <article className="lg:w-2/3 text-white">
             <h2 className="font-bold text-3xl">Tentang Kami</h2>

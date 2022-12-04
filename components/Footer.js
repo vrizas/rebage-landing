@@ -9,17 +9,17 @@ export default function Footer() {
         <footer className="flex gap-8 flex-col text-center px-4 pt-10 bg-gradient-to-r from-[#DCFAE5] to-[#EAF5ED] lg:text-left lg:flex-row items-center lg:justify-between lg:px-14">
             <article className="lg:pb-10 lg:w-2/3">
                 <Link href="/" className="inline-block">
-                    <Image src={logo} alt="" className="w-[100px] lg:w-[120px]" />
+                    <Image src={logo} alt="" className="w-[100px] lg:w-[120px]" priority />
                 </Link>
                 <p className="mt-5 text-light-gray font-medium leading-snug">Rebage adalah platform aplikasi bank sampah anorganik digital yang bertujuan untuk meningkatkan kesadaran masyarakat akan penting nya pengkategorian sampah melalui pemanfaatan kategori 3R (Reduce, Reuse, dan Recycle).</p>
                 <div className="mt-8">
                     <div className="font-bold text-lg">Segera Hadir!</div>
                     <div className="mt-3 flex gap-5">
                         <a href="#" target="_blank" rel="noopener noreferrer">
-                            <Image src={googlePlayBadge} width="135" alt="Get it on Google Play" />
+                            <Image src={googlePlayBadge} width="135" alt="Get it on Google Play" priority />
                         </a>
                         <a href="#" target="_blank" rel="noopener noreferrer">
-                            <Image src={appStoreBadge} width="135" alt="Get it on App Store" />
+                            <Image src={appStoreBadge} width="135" alt="Get it on App Store" priority />
                         </a>
                     </div>
                 </div>

@@ -11,15 +11,15 @@ export default function Download() {
             <p className="mt-5 text-light-gray font-medium">Yuk, pilah sampah disekitar mu! #BersamaRebage</p>
             <div className="mt-8 flex gap-5">
               <a href="#" target="_blank" rel="noopener noreferrer">
-                <Image src={googlePlayBadge} width="170" alt="Get it on Google Play" />
+                <Image src={googlePlayBadge} width="170" alt="Get it on Google Play" priority />
               </a>
               <a href="#" target="_blank" rel="noopener noreferrer">
-                <Image src={appStoreBadge} width="170" alt="Get it on App Store" />
+                <Image src={appStoreBadge} width="170" alt="Get it on App Store" priority />
               </a>
             </div>
           </article>
           <div>
-            <Image src={rebageAppDetector} alt="Rebage App (Detector)" />
+            <Image src={rebageAppDetector} alt="Rebage App (Detector)" priority />
           </div>
         </section>
     )
