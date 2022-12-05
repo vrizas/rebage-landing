@@ -26,7 +26,7 @@ export default function TrashNews() {
                 </div>
             </div>
             <div className="bg-[#E6EAEE] rounded-lg py-14 px-8 text-center flex flex-col gap-3 items-center justify-center">
-              <div className="text-5xl font-bold text-[#3FA86D99]">Comming Soon</div>
+              <div className="text-5xl font-bold text-[#3FA86D99]">Coming Soon</div>
             </div>
           </div>
         </section>
