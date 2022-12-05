@@ -3,7 +3,7 @@ import Image from 'next/image'
 import logomark from '../public/logomark.svg'
 import { useEffect } from 'react'
 
-export default function Home() {
+export default function Campaign() {
   useEffect(() => {
     const loadingBar = document.querySelector('#loading-bar')
     loadingBar.classList.add('w-full')
@@ -61,9 +61,9 @@ export default function Home() {
                     </button>
                 </div>
             </div>
-            <div className="bg-[#E6EAEE] rounded-lg py-10 px-8 text-center flex flex-col gap-3 items-center justify-center">
+            <div className="bg-[#E6EAEE] rounded-lg py-14 px-8 text-center flex flex-col gap-3 items-center justify-center">
               <div>
-                <Image src={logomark} alt="Rebage Logo" width="50" />
+                <Image src={logomark} alt="Rebage Logo" width="50" priority />
               </div>
               <div className="text-sm">Kampanye tidak tersedia</div>
             </div>
@@ -84,9 +84,9 @@ export default function Home() {
                     </button>
                 </div>
             </div>
-            <div className="bg-[#E6EAEE] rounded-lg py-10 px-8 text-center flex flex-col gap-3 items-center justify-center">
+            <div className="bg-[#E6EAEE] rounded-lg py-14 px-8 text-center flex flex-col gap-3 items-center justify-center">
               <div>
-                <Image src={logomark} alt="Rebage Logo" width="50" />
+                <Image src={logomark} alt="Rebage Logo" width="50" priority />
               </div>
               <div className="text-sm">Kampanye tidak tersedia</div>
             </div>
@@ -107,9 +107,9 @@ export default function Home() {
                     </button>
                 </div>
             </div>
-            <div className="bg-[#E6EAEE] rounded-lg py-10 px-8 text-center flex flex-col gap-3 items-center justify-center">
+            <div className="bg-[#E6EAEE] rounded-lg py-14 px-8 text-center flex flex-col gap-3 items-center justify-center">
               <div>
-                <Image src={logomark} alt="Rebage Logo" width="50" />
+                <Image src={logomark} alt="Rebage Logo" width="50" priority />
               </div>
               <div className="text-sm">Kampanye tidak tersedia</div>
             </div>
