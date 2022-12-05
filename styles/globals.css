@@ -10,10 +10,10 @@ html {
     position: fixed;
     top: 0;
     left: 0;
-    width: 0;
+    width: 15%;
     height: 4px;
     z-index: 999;
-    animation: loading-bar 1s linear infinite alternate, loading-bar-30 .3s ease-in-out forwards, loading-bar-60 .2s ease-in-out .5s forwards, loading-bar-75 .1s ease-in-out .75s forwards;
+    animation: loading-bar 1s linear infinite alternate, loading-bar-load 1.5s linear infinite;
     transition: .5s;
 }
 
@@ -31,25 +31,17 @@ html {
     }
 }
 
-@keyframes loading-bar-30 {
+@keyframes loading-bar-load {
     to {
-        width: 30%;
-    }
-}
-
-@keyframes loading-bar-60 {
-    to {
-        width: 60%;
-    }
-}
-
-@keyframes loading-bar-75 {
-    to {
-        width: 75%;
+        transform: translateX(100vw);
     }
 }
 
 @keyframes loading-bar-100 {
+    from {
+        width: 0;
+    }
+
     to {
         width: 100%;
     }

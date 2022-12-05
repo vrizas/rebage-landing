@@ -1,17 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import logomark from '../public/logomark.svg'
-import { useEffect } from 'react'
 
 export default function TrashNews() {
-  useEffect(() => {
-    const loadingBar = document.querySelector('#loading-bar')
-    loadingBar.classList.add('w-full')
-    setTimeout(() => {
-      loadingBar.classList.add('opacity-0')
-    }, 500)
-  }, [])
-
   return (
     <div>
       <Head>
