@@ -7,7 +7,7 @@ export default function Campaign() {
       <main>
         <section className="flex gap-5 flex-col text-center items-center px-4 py-10 lg:px-14 bg-gradient-to-r from-[#0E9F56] to-primary">
           <h2 className="text-white text-3xl font-bold">Jelajahi Kampanye Disini!</h2>
-          <div className="flex w-1/2">
+          <div className="flex lg:w-1/2">
             <input type="search" placeholder="Cari kampanye apa pun..." className="py-2 px-4 rounded-tl-md rounded-bl-md w-full" />
             <button className="py-2 px-3 rounded-tl-none rounded-bl-none rounded-tr-md rounded br-md bg-[#D9D9D9] hover:bg-[#cfcaca]">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="18">
