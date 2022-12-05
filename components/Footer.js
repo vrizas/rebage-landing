@@ -15,10 +15,10 @@ export default function Footer() {
                 <div className="mt-8">
                     <div className="font-bold text-lg">Segera Hadir!</div>
                     <div className="mt-3 flex gap-5">
-                        <a href="#" target="_blank" rel="noopener noreferrer">
+                        <a href="https://drive.google.com/file/d/1Wgx4M0m-AitbDG24K1ldUUsIXhu442SZ/view?usp=share_link" target="_blank" rel="noopener noreferrer">
                             <Image src={googlePlayBadge} width="135" alt="Get it on Google Play" priority />
                         </a>
-                        <a href="#" target="_blank" rel="noopener noreferrer">
+                        <a href="https://drive.google.com/file/d/1Wgx4M0m-AitbDG24K1ldUUsIXhu442SZ/view?usp=share_link" target="_blank" rel="noopener noreferrer">
                             <Image src={appStoreBadge} width="135" alt="Get it on App Store" priority />
                         </a>
                     </div>

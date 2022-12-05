@@ -10,10 +10,10 @@ export default function Download() {
             <h2 className="text-3xl font-bold lg:text-5xl lg:leading-[3.6rem]">Segera hadir di App Store dan Play Store.</h2>
             <p className="mt-5 text-light-gray font-medium">Yuk, pilah sampah disekitar mu! #BersamaRebage</p>
             <div className="mt-8 flex gap-5">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1Wgx4M0m-AitbDG24K1ldUUsIXhu442SZ/view?usp=share_link" target="_blank" rel="noopener noreferrer">
                 <Image src={googlePlayBadge} width="170" alt="Get it on Google Play" priority />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1Wgx4M0m-AitbDG24K1ldUUsIXhu442SZ/view?usp=share_link" target="_blank" rel="noopener noreferrer">
                 <Image src={appStoreBadge} width="170" alt="Get it on App Store" priority />
               </a>
             </div>
