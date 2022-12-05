@@ -37,12 +37,12 @@ export default function Header() {
                             </svg>
                         </button>
                     </div>
-                    <a href="#features" className="py-2 px-4 lg:p-0" onClick={hideHamburgerMenuHandler}>Fitur Rebage</a>
-                    <a href="#" className="py-2 px-4 lg:p-0" onClick={hideHamburgerMenuHandler}>Kampanye</a>
-                    <a href="#about-us" className="py-2 px-4 lg:p-0" onClick={hideHamburgerMenuHandler}>Tentang Kami</a>
-                    <a href="#" className="py-2 px-4 lg:p-0" onClick={hideHamburgerMenuHandler}>TrashNews</a>
+                    <Link href="/#features" className="py-2 px-4 lg:p-0" onClick={hideHamburgerMenuHandler}>Fitur Rebage</Link>
+                    <Link href="/campaign" className="py-2 px-4 lg:p-0" onClick={hideHamburgerMenuHandler}>Kampanye</Link>
+                    <Link href="/#about-us" className="py-2 px-4 lg:p-0" onClick={hideHamburgerMenuHandler}>Tentang Kami</Link>
+                    <Link href="/trashnews" className="py-2 px-4 lg:p-0" onClick={hideHamburgerMenuHandler}>TrashNews</Link>
                     <div className="flex justify-center mt-5">
-                        <a href="#" className="flex items-center gap-2 bg-success text-white font-medium py-2 px-4 rounded-md w-fit lg:hidden" onClick={hideHamburgerMenuHandler}>
+                        <a href="#" className="flex items-center gap-2 bg-success hover:bg-[#1aa302] text-white font-medium py-2 px-4 rounded-md w-fit lg:hidden" onClick={hideHamburgerMenuHandler}>
                             <svg width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                             <path fill="currentColor" d="M534.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L434.7 224 224 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128zM192 96c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0c-53 0-96 43-96 96l0 256c0 53 43 96 96 96l64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0c-17.7 0-32-14.3-32-32l0-256c0-17.7 14.3-32 32-32l64 0z"/>
                             </svg>
@@ -57,7 +57,7 @@ export default function Header() {
                     <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
                     </svg>
                 </button>
-                <a href="#" className="items-center gap-2 bg-success text-white font-medium py-2 px-4 rounded-md hidden lg:flex">
+                <a href="#" className="items-center gap-2 bg-success hover:bg-[#1aa302] text-white font-medium py-2 px-4 rounded-md hidden lg:flex">
                     <svg width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                     <path fill="currentColor" d="M534.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L434.7 224 224 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128zM192 96c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0c-53 0-96 43-96 96l0 256c0 53 43 96 96 96l64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0c-17.7 0-32-14.3-32-32l0-256c0-17.7 14.3-32 32-32l64 0z"/>
                     </svg>
