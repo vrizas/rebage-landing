@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import rebageAppHome from '../public/images/rebage-app-home.png'
 import recycle from '../public/images/recycle.jpg'
@@ -6,24 +5,6 @@ import recycle from '../public/images/recycle.jpg'
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>Rebage - Teman Terbaik untuk Memilah Sampah Demi Lingkungan Sehat dan Nyaman</title>
-        <meta name="title" content="Rebage - Teman Terbaik untuk Memilah Sampah Demi Lingkungan Sehat dan Nyaman" />
-        <meta name="description" content="Rebage adalah platform aplikasi bank sampah anorganik digital yang bertujuan untuk meningkatkan kesadaran masyarakat akan penting nya pengkategorian sampah melalui pemanfaatan kategori 3R (Reduce, Reuse, dan Recycle)." />
-        <meta name="keywords" content="Rebage, Recycle, Jual Sampah, Bank Sampah" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://rebage.vercel.app/" />
-        <meta property="og:title" content="Rebage - Teman Terbaik untuk Memilah Sampah Demi Lingkungan Sehat dan Nyaman" />
-        <meta property="og:description" content="Rebage adalah platform aplikasi bank sampah anorganik digital yang bertujuan untuk meningkatkan kesadaran masyarakat akan penting nya pengkategorian sampah melalui pemanfaatan kategori 3R (Reduce, Reuse, dan Recycle)." />
-        <meta property="og:image" content="/site.png" />
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://rebage.vercel.app/" />
-        <meta property="twitter:title" content="Rebage - Teman Terbaik untuk Memilah Sampah Demi Lingkungan Sehat dan Nyaman" />
-        <meta property="twitter:description" content="Rebage adalah platform aplikasi bank sampah anorganik digital yang bertujuan untuk meningkatkan kesadaran masyarakat akan penting nya pengkategorian sampah melalui pemanfaatan kategori 3R (Reduce, Reuse, dan Recycle)." />
-        <meta property="twitter:image" content="/site.png" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <main>
         <section className="flex gap-8 flex-col text-center lg:text-left lg:flex-row items-center lg:justify-between px-4 py-10 lg:px-14">
           <article className="lg:w-1/2">

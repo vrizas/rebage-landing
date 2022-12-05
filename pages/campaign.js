@@ -1,28 +1,9 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import logomark from '../public/logomark.svg'
 
 export default function Campaign() {
   return (
     <div>
-      <Head>
-        <title>Rebage - Teman Terbaik untuk Memilah Sampah Demi Lingkungan Sehat dan Nyaman</title>
-        <meta name="title" content="Rebage - Teman Terbaik untuk Memilah Sampah Demi Lingkungan Sehat dan Nyaman" />
-        <meta name="description" content="Rebage adalah platform aplikasi bank sampah anorganik digital yang bertujuan untuk meningkatkan kesadaran masyarakat akan penting nya pengkategorian sampah melalui pemanfaatan kategori 3R (Reduce, Reuse, dan Recycle)." />
-        <meta name="keywords" content="Rebage, Recycle, Jual Sampah, Bank Sampah" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://rebage.vercel.app/" />
-        <meta property="og:title" content="Rebage - Teman Terbaik untuk Memilah Sampah Demi Lingkungan Sehat dan Nyaman" />
-        <meta property="og:description" content="Rebage adalah platform aplikasi bank sampah anorganik digital yang bertujuan untuk meningkatkan kesadaran masyarakat akan penting nya pengkategorian sampah melalui pemanfaatan kategori 3R (Reduce, Reuse, dan Recycle)." />
-        <meta property="og:image" content="/site.png" />
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://rebage.vercel.app/" />
-        <meta property="twitter:title" content="Rebage - Teman Terbaik untuk Memilah Sampah Demi Lingkungan Sehat dan Nyaman" />
-        <meta property="twitter:description" content="Rebage adalah platform aplikasi bank sampah anorganik digital yang bertujuan untuk meningkatkan kesadaran masyarakat akan penting nya pengkategorian sampah melalui pemanfaatan kategori 3R (Reduce, Reuse, dan Recycle)." />
-        <meta property="twitter:image" content="/site.png" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <main>
         <section className="flex gap-5 flex-col text-center items-center px-4 py-10 lg:px-14 bg-gradient-to-r from-[#0E9F56] to-primary">
           <h2 className="text-white text-3xl font-bold">Jelajahi Kampanye Disini!</h2>
