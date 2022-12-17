@@ -18,7 +18,7 @@ export default function Home() {
             </h1>
             <div className="mt-5 text-light-gray font-medium leading-snug">
               <p className="mb-1">Kurangi Penumpukan Sampah dengan Memilah Sampah Di sekitarmu bersama Rebage!</p>
-              <p>Temukan kampanye bebas sampah terbaik dan dapatkan hadiah menarik disini.</p>
+              <p>Temukan berbagai macam solusi inovatif yang dapat kamu gunakan dalam mengubah sampah menjadi barang layak pakai.</p>
             </div>
             <a href="https://www.instagram.com/rebage.id/" target="_blank" rel="noopener noreferrer" className="mt-5 inline-flex gap-2 items-center font-medium bg-success text-white py-2 px-4 rounded-md">
               <svg width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -81,7 +81,7 @@ export default function Home() {
                 </div>  
               </div>
               <div className="mt-6">
-                <h3 className="font-bold mb-2">Solusi Sampah Dengan 3R</h3>
+                <h3 className="font-bold mb-2">Solusi Spesifik Sampah dengan 3R</h3>
                 <p>Dapatkan rekomendasi pengolahan sampah dengan 3R (Reduce, Reuse, Recycle)</p>
               </div>
             </div>
